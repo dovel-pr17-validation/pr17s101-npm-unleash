@@ -46,7 +46,7 @@
     "gen:api:clean": "pnpm run gen:api && rm -rf src/openapi/apis && sed -i.bak '1q' src/openapi/index.ts && rm src/openapi/index.ts.bak"
   },
   "devDependencies": {
-    "@babel/core": "^7.29.0",
+    "@babel/core": "^8.0.9",
     "@base-ui/react": "^1.4.1",
     "@biomejs/biome": "^2.4.16",
     "@codemirror/lang-json": "6.0.2",
